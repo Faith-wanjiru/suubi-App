@@ -83,32 +83,33 @@
         android:id="@+id/nextBillingLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
         android:text="Next Billing Date:"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="325dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/successLabel" />
 
     <Button
         android:id="@+id/changePasswordButton"
-        android:layout_width="372dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="172dp"
+        android:layout_width="370dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
         android:drawableLeft="@drawable/ic_lock"
         android:text="Change Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/successLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/nextBillingLabel" />
 
     <Button
         android:id="@+id/contactUsButton"
-        android:layout_width="365dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="362dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="84dp"
         android:drawableLeft="@drawable/ic_contact"
         android:text="Contact Us"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/changePasswordButton" />
 
@@ -116,10 +117,10 @@
         android:id="@+id/customerServiceButton"
         android:layout_width="357dp"
         android:layout_height="58dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="84dp"
         android:drawableLeft="@drawable/ic_customer_service"
         android:text="Customer Service"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contactUsButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
