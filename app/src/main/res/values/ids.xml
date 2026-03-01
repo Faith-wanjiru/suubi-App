@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="signup" type="id" />
+    <item name="tilconPassword2" type="id" />
+    <item name="textlogin" type="id" />
+    <item name="etcoPassword" type="id" />
+    <item name="sacco1" type="id" />
+    <item name="sacco2" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="setProfileTextView" type="id" />
+    <item name="imageView5" type="id" />
+</resources>
